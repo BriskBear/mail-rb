@@ -1,0 +1,12 @@
+address: smtp.office365.com     # Comes from mail provider
+auth: login                     # Password handling [ plain, login, cram_md5 ]
+ca_file: null                   # String path to file || YAML Null [ ~, null ]
+delivery_method: :smtp          # [:imap, :pop3, :smtp]
+domain: example.com             # String domain name
+enable_starttls_auto: On        # YAML Boolean [ y, true, yes, on || n, false, no, off ] case insensitive
+password: XXXXXXXXXXXXXXXXXXXX  # String password, case sensitive
+port: 587                       # Integer port number
+recipients:                     # Email target addresses
+  - user@example.com
+ssl_verify: peer                # OpenSSL verify mode ('none' can help with self-signed certs)
+username: nodeops@cppwind.com   # String email address

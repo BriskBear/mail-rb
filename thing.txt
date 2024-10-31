@@ -1,0 +1,3 @@
+to: eeccher@cppwind.com
+subject: SpaceX missed messages!
+Sensr for SpaceX has not successfully synchronized in over 7hrs!
